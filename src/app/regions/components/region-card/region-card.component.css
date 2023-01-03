@@ -1,0 +1,117 @@
+
+
+:host{
+    width: 90%;
+    max-width: 400px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid gray;
+    margin: 16px 0;
+    
+}
+
+.region-card-container{
+    height: 100%;
+    position: relative;
+}
+
+h3{
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(254, 254, 254);
+    width: 140px;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: calc(50% - 70px) ;
+}
+
+.summary-button{
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--main-red);
+    border: 2px solid black;
+    font-weight: 700;
+    bottom: 8px;
+    left: calc(50% - 100px);
+    cursor: pointer;
+}
+
+.button-container .summary-button :hover{
+    color: yellow !important;
+}
+
+
+
+
+
+.kanto-card {
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/pokemon-kanto-region-starter-compiled-(1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.johto-card{
+    
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-99e1bedbc3c0027a6c9ed7c060205c3f-lq");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.hoenn-card{
+    background-image: url("https://pm1.narvii.com/6773/8a1b0fd09a2841e7a00b227edf5c04045fb919e3v2_hq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.sinnoh-card{
+    background-image: url("https://pm1.narvii.com/6235/8d90a82c22bc750ba7be93db8a9e42541f2a82f4_hq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.unova-card{
+    background-image: url("http://pm1.narvii.com/7369/62f3bdd1752be4229cc60e38e50d655c39f4feaer1-485-273v2_uhq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.kalos-card{
+    background-image: url("https://www.pngitem.com/pimgs/m/152-1524748_kalos-starters-png-transparent-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.alola-card{
+    background-image: url("https://media.wired.co.uk/photos/606dab01ef7fc50463193299/master/w_1600%2Cc_limit/Pokemon_SunMoon_Starters.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.galar-card{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/78c484d8-34a9-40ec-aa54-50ae46cf3855/dd41y29-c8c7044c-977a-4209-ae03-af9ed18fc8e6.png/v1/fill/w_900,h_645,strp/pokemon_generation_8__galar_starter_by_sajiro158_dd41y29-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQ1IiwicGF0aCI6IlwvZlwvNzhjNDg0ZDgtMzRhOS00MGVjLWFhNTQtNTBhZTQ2Y2YzODU1XC9kZDQxeTI5LWM4YzcwNDRjLTk3N2EtNDIwOS1hZTAzLWFmOWVkMThmYzhlNi5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.4Be9DhiJPpmjEaYgDAiBGUQLUBk_nqzs0cKzmWPOWOs");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.hisui-card{
+    background-image: url("https://www.gamerguides.com/assets/media/17/233/starters_pokemon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+
+

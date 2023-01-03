@@ -1,0 +1,48 @@
+<h2>{{pokemonName | titlecase }}</h2>
+
+<div class="summary-parent">
+    <div class="summary-container">
+        <p class="pokemon-id">{{'ID: ' + pokemonId}}</p>
+        <img [src]="pokemonImage" [alt]="pokemonName">
+        <h4>Types</h4>
+        <div class="list-container">
+                <p *ngFor="let type of pokemonTypes">
+                    {{type}}
+                </p>
+        </div>
+
+        <hr>
+
+        <h4>Abilities</h4>
+        <div class="list-container">
+                <p *ngFor="let ability of pokemonAbilities">
+                    {{ability}}
+                </p>
+        </div>
+
+            <hr>
+
+        <h4>Egg Groups</h4>
+        <div class="list-container">
+                <p *ngFor="let eggGroup of pokemonEggGroups">
+                    {{eggGroup}}
+                </p>
+            
+        </div>
+
+        <hr>
+
+        <h4>Pokedex Description</h4>
+        <div class="list-container">
+                <p>
+                    {{pokedexDescription}}
+                </p>
+            
+        </div>
+    </div>
+    <div class="base-stats-container">
+        <p-chart type="radar" [data]="data" [style]="{'width': '40%'}"></p-chart>
+    </div>
+</div>
+
+

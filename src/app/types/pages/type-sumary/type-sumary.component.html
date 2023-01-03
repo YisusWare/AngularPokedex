@@ -1,0 +1,86 @@
+<h1>{{typeName + ' type summary' | titlecase}}</h1>
+
+<p-card>
+    <ng-template pTemplate="header">
+        Basic Information
+    </ng-template>
+    <ul>
+        <li>{{'Japanese Name: ' + japaneseName}}</li>
+        <li>{{'Moves: ' + movesQty}}</li>
+        <li>{{'Species: ' + pokemonQty}}</li>
+    </ul>
+</p-card>
+
+<h3>{{'Damage Relations for ' + typeName + ' type' }}</h3>
+<div class="damage-relations-table-container">
+    <div class="damage-relations-table">
+        <p-table [value]="doubleDamageFrom">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Double Damage From</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-ddf>
+                <tr>
+                    <td>{{ddf.name}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    <div class="damage-relations-table">
+        <p-table [value]="doubleDamageTo">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Double Damage To</th>
+                </tr>
+                <tr *ngIf="doubleDamageTo.length === 0">
+                    <th>none</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-ddt>
+                
+                <tr>
+                    <td>{{ddt.name}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    <div class="damage-relations-table">
+        <p-table [value]="halfDamageFrom">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Half Damage From</th>
+                </tr>
+                <tr *ngIf="doubleDamageTo.length === 0">
+                    <th>none</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-hdf>
+                
+                <tr>
+                    <td>{{hdf.name}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+    <div class="damage-relations-table">
+        <p-table [value]="halfDamageTo">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Half Damage To</th>
+                </tr>
+                <tr *ngIf="halfDamageTo.length === 0">
+                    <th>none</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-hdt>
+                
+                <tr>
+                    <td>{{hdt.name}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+
+

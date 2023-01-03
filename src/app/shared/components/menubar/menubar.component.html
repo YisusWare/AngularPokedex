@@ -1,0 +1,8 @@
+<p-menubar [model]="items">
+       
+        <h1>Poke App</h1>
+        <form (ngSubmit)="searchPokemon()">
+        <button pButton type="submit" class="p-button-warning" icon="pi pi-search"></button>
+        <input type="text" pInputText placeholder="Search" [(ngModel)]="search" name="search">
+        </form>
+</p-menubar>

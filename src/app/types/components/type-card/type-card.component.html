@@ -1,0 +1,13 @@
+
+<div class="card-container"
+        [ngClass]="evaluateClass()">
+    <h3>{{type.name | titlecase}}</h3>
+
+    <div class="button-container">
+        <button routerLink='/types/type_sumary/{{index}}'
+        >Summary</button>
+        <button routerLink='/types/type_species_catalog/{{index}}'
+        >See Species</button>
+    </div>
+</div>
+

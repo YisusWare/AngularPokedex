@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin: 16px 0 4px 0;
+}
+
+:host ::ng-deep .p-card{
+    width: 95% !important;
+    margin: 10px auto 0 auto ;
+    padding-left: 10px;
+}
+
+
+:host ::ng-deep .p-card ul{
+    list-style: none;
+}
+
+
+:host ::ng-deep .p-card-header{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.damage-relations-table-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.damage-relations-table{
+    width: 90%;
+    max-width: 350px;
+    margin: 10px 10px;
+    
+}
+
+th , td{
+    text-align: center !important;
+}
+

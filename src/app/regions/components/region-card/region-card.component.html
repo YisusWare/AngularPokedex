@@ -1,0 +1,13 @@
+<div class="region-card-container" [ngClass]="fnEvaluateRegion()">
+    <h3 >
+        {{regionName | titlecase}}
+    </h3>
+
+    <div class="button-container">
+        <button class="summary-button"
+                routerLink="/regions/region_species_catalog/{{regionName}}"
+        >Summary</button>
+    </div>
+</div>
+
+

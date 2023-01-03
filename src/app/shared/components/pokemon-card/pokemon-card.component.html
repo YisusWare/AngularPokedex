@@ -1,0 +1,26 @@
+<div *ngIf="render; else notFound" class="card-container"
+    [ngClass]="evaluateClass()" >
+
+    <button routerLink="/pokemon_sumary/{{pokemonName}}" 
+    >{{pokemonName | titlecase}}</button>
+    <div class="pokemon-card-image">
+            <img [src]="pokemonImage" alt="">
+    </div>
+    <div class="pokemon-card-info">
+        <div class="types-container">
+            <div class="pokemon-type" *ngFor="let item of pokemonTypes">
+                {{item}}
+            </div>
+        </div>
+
+        <div class="pokemon-summary">
+            
+        </div>
+    </div>
+
+</div>
+
+<ng-template #notFound>
+    <h2>There is no pokemon with name "{{pokemonName}}" currently</h2>
+</ng-template>
+

@@ -1,0 +1,145 @@
+.normal-type-card{
+  
+background: radial-gradient(circle at center, 
+                        #ddccaa 30%,
+             rgb(255, 251, 242) 50%,
+                       #ddccaa 100%);
+}
+
+.fighting-type-card{
+  background: linear-gradient(180deg, 
+                rgb(119, 29, 29), 
+                rgb(143, 63, 20) 25%, 
+                rgb(178, 84, 84) 50%,
+                rgb(119, 29, 29) 80%);
+}
+
+.flying-type-card{
+  background: linear-gradient(230deg, 
+               #5689d1, 
+               #6a28e6 15%, 
+               #94abd8 45%,
+               #6a28e6 85%,
+               #5689d1 100%);
+}
+
+.poison-type-card{
+  background: radial-gradient(circle at top, 
+                                  rgb(124, 20, 124) 10%,
+                                  #945a99 20%,
+                                  rgb(124, 20, 124) 40%,
+                                  rgb(255, 139, 228) 50%,
+                                  #945a99 90%);
+}
+
+
+
+.ground-type-card{
+  background: radial-gradient(circle at right, 
+                                  
+                                  rgb(145, 130, 88) 20%,
+                                  rgb(193, 174, 153) 40%,
+                                  rgb(145, 130, 88) 50%,
+                                  rgb(158, 177, 111) 90%);
+}
+
+.rock-type-card{
+  background: linear-gradient( 225deg, rgb(191, 112, 37), rgb(246, 179, 107) ) ;
+  box-shadow: inset 16px 0 16px 6px rgb(193, 174, 153)
+}
+
+.bug-type-card{
+  background: linear-gradient( 225deg, rgb(132, 213, 25), rgb(14, 167, 6) 50%, rgb(132, 213, 25) ) ;
+  
+}
+.ghost-type-card{
+  background: linear-gradient( 25deg, #827ba6, rgb(93, 79, 109) 50%, rgb(54, 42, 72) ) ;
+  
+}
+.steel-type-card{
+  background: linear-gradient( 25deg, 
+              #696772, 
+              rgb(198, 182, 215) 20%, 
+              #696772 30%, 
+              rgb(198, 182, 215) 60%,
+              #696772 80% ) ;
+  
+}
+
+.fire-type-card{
+  
+  background: radial-gradient(circle at center, 
+                          #da2d2d 30%,
+               rgb(250, 140, 67) 50%,
+                         #e97867 100%);
+}
+
+.grass-type-card{
+  background: linear-gradient( 45deg, 
+                          rgb(29, 101, 29), 
+                          rgb(89, 201, 133) 50%, 
+                          rgb(13, 120, 31) ) ;
+  
+}
+
+
+.water-type-card{
+    background: linear-gradient(45deg, rgb(27, 27, 160) 30%,
+                                     rgb(122, 152, 216) 50%, 
+                                      rgb(27, 27, 160) 100%);
+}
+
+.electric-type-card{
+  background: linear-gradient( 95deg, 
+                          rgb(161, 161, 24), 
+                          rgb(198, 239, 36) 50%, 
+                          rgb(241, 243, 149) 60%,
+                          rgb(198, 239, 36)) ;
+  
+}
+
+.psychic-type-card{
+  background: radial-gradient(circle at right, 
+                                  rgb(251, 152, 192) 10%,
+                                  #dc4fe6 20%,
+                                  rgb(228, 33, 118) 40%,
+                                  rgb(255, 139, 228) 50%,
+                                  #c71aa4 90%);
+}
+
+.ice-type-card{
+  background: linear-gradient( 195deg, 
+                          rgb(135, 193, 218), 
+                          rgb(86, 171, 193) 50%, 
+                          rgb(135, 193, 218) 60%,
+                          rgb(54, 180, 208)) ;
+  
+}
+
+.dragon-type-card{
+  background: linear-gradient( 180deg, 
+                          rgb(55, 64, 252),
+                          rgb(96, 21, 136) 15%,
+                          rgb(205, 15, 15) 50%,
+                          rgb(96, 21, 136) 85%, 
+                          rgb(64, 54, 208) 100%)  ;
+  
+}
+.dark-type-card{
+  background: linear-gradient( 95deg, 
+                          rgb(40, 42, 75),
+                          rgb(96, 21, 136) 15%,
+                          rgb(59, 69, 99) 50%,
+                          rgb(96, 21, 136) 85%, 
+                          rgb(40, 42, 75) 100%)  ;
+  
+}
+.fairy-type-card{
+  background: linear-gradient( 47deg, 
+                          rgb(223, 128, 234),
+                          rgb(181, 49, 165) 15%,
+                          rgb(211, 10, 141) 50%,
+                          rgb(219, 104, 212) 85%, 
+                          rgb(221, 166, 223)) 100% ;
+  
+}

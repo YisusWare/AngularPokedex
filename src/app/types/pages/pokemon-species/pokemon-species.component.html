@@ -1,0 +1,14 @@
+<div class="pokemon-cards-container">
+    <app-pokemon-card *ngFor="let item of currentPokemonList"
+                        [pokemonName]="item.pokemon.name">
+    </app-pokemon-card>
+</div>
+
+<div>
+    <div class="button-container">
+        <button id="before-button"
+                (click)="fnBefore()">Before</button>
+        <button id="next-button"
+                (click)="fnNext()">Next</button>
+    </div>
+</div>

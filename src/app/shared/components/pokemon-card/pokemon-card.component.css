@@ -1,0 +1,48 @@
+@import './../../../app.component.css';
+
+:host{
+    width: 90%;
+    max-width: 350px;
+    margin-top: 8px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0 16px 0;
+    border-radius: 8px;
+}
+
+.card-container button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px gray solid;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.pokemon-card-image{
+    background: radial-gradient( circle at center, rgb(230, 223, 223) 10%, white);
+    border: 2px gray solid;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.pokemon-card-info{
+
+}
+
+.types-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon-type{
+    background-color: rgb(255, 251, 251);
+    padding: 4px 8px;
+    margin: 2px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}

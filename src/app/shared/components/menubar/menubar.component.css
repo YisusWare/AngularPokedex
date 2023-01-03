@@ -1,0 +1,45 @@
+@import '../../../app.component.css';
+
+h1{
+    display: none;
+
+}
+
+:host ::ng-deep .p-menubar{
+    background: var(--main-red);
+}
+
+:host ::ng-deep .p-menubar-button{
+    color: white !important;
+}
+
+:host ::ng-deep .p-menubar-end{
+    width: 70%;
+    min-width: 280px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+:host ::ng-deep .p-inputtext{
+    width: 70%;
+    margin-left: 4px ;
+    
+}
+
+@media (min-width: 900px) {
+    :host ::ng-deep .p-menuitem-text{
+        color: white !important;
+    }
+
+    :host ::ng-deep .p-menuitem:hover .p-menuitem-text{
+        color: #495057 !important;
+    }
+
+    h1{
+        display: block;
+        color: white;
+        width: 50%;
+    }
+
+    
+}
